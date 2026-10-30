@@ -1,0 +1,12 @@
+#Elaborar um programa em Python que cadastre os dados pessoais como (Nome,Sobrenome,Idade,Cidade,Altura,Peso,IMC)solicite os dados de estatura (em metros) e peso (em Kg) de uma pessoa e calcule/visualize seu IMC
+nome_sobrenome = (input('Digite seu nome e sobrenome: '))
+idade = int(input('Coloque sua idade: '))
+cidade = (input('Coloque a cidade em que você mora: '))
+altura = float(input('Coloque sua altura: '))
+peso = float(input('Coloque seu peso atual: '))
+IMC = float(input('Informe seu IMC: '))
+print(f'Seu nome é {nome_sobrenome} você tem {idade} anos, você mora na cidade de {cidade} sua altura é de {altura} metros e você pesa {peso} Kg e seu IMC é de {IMC}  ')
+estatura = float(input('Coloque sua estatura: '))
+peso1 = float(input('Informe seu peso: '))
+c = (peso / estatura**2)
+print(f'Sua estatura é de {estatura} e seu peso é de {peso1} Kg')
